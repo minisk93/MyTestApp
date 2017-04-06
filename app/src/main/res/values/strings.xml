@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyTestApp</string>
+    <string name="last_value">Last value:</string>
+    <string name="last_start">Last start:</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+</resources>
