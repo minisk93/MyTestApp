@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity
                 {
                     mIsRunning = true;
                     startService(mServiceIntent);
+                    Toast.makeText(MainActivity.this,"Started",Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
@@ -104,6 +105,7 @@ public class MainActivity extends AppCompatActivity
                 {
                     mIsRunning = false;
                     stopService(mServiceIntent);
+                    Toast.makeText(MainActivity.this,"Stopped",Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
